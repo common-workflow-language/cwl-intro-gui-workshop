@@ -42,6 +42,3 @@ $namespaces:
 #	directory/meta-velvetg.LastGraph        	: special formatted file with all the information on the final graph
 #	directory/meta-velvetg.Graph2-stats.txt 	: stats file (tab-delimited) useful for optimizing coverage peak values
 #	directory/meta-velvetg.split-stats.txt  	: stats file (tab-delimited) useful for optimizing graph-splitting parameters
-
-
-
