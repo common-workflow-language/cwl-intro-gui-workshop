@@ -40,17 +40,3 @@ outputs:
     type: Directory
     outputBinding:
       glob: $(inputs.hashtable.basename)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
