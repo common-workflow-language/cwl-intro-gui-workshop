@@ -1,0 +1,4 @@
+pdf:
+  class: File
+  path: ../../Documents/demo.pdf
+text: demo.txt

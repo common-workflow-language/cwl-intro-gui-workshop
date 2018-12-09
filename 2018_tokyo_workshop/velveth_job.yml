@@ -1,0 +1,6 @@
+right_reads:  # type "File"
+    class: File
+    path: a/file/path
+left_reads:  # type "File"
+    class: File
+    path: a/file/path

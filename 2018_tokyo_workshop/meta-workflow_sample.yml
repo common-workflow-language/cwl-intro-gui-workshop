@@ -1,0 +1,9 @@
+my_right_reads:  # type "File"
+    class: File
+    path: HMP.small/SRR041654_shuffled_8000.fasta
+    format: http://edamontology.org/format_1929
+my_left_reads:  # type "File"
+    class: File
+    path: HMP.small/SRR041655_shuffled_8000.fasta
+    format: http://edamontology.org/format_1929
+
