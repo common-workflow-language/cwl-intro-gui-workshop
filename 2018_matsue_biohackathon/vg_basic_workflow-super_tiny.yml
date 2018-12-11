@@ -1,0 +1,8 @@
+my_genomic_varients:
+    class: File
+    path: tiny.vcf.gz
+    format: edam:format_3016  # VCF
+my_reference_genome:
+    class: File
+    path: tiny.fa
+    format: edam:format_1929  # FASTA
