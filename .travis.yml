@@ -1,0 +1,8 @@
+language: python
+python:
+  - 2.7
+  - 3.6
+before_script:
+  - pip install cwltool
+script:
+  - for cwl in */*.cwl; do cwltool --validate $cwl || return 1; done
