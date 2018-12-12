@@ -17,8 +17,8 @@ inputs:
   genome_graph:
     type: File
     label: VG format
-
-stdin: $(inputs.genome_graph.nameroot)
+    inputBinding: 
+      position: 1
 
 baseCommand: [ vg, view ]
 
@@ -26,13 +26,13 @@ arguments:
   - --dot
   - --show-paths
 
-stdout: $(inputs.genome_graph.nameroot).dot
+stdout: $(inputs.genome_graph.basename).dot
 
 outputs:
   graph:
     type: File
     outputBinding:
-      glob: $(inputs.genome_graph.nameroot).dot
+      glob: $(inputs.genome_graph.basename).dot
     format: iana:text/vnd.graphviz 
       
 $namespaces:
